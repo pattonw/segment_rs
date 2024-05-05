@@ -5,9 +5,8 @@ build-backend = "maturin"
 [project]
 authors = [
     { name = "William Patton", email = "wllmpttn24@gmail.com" },
-    { name = "Jan Funke", email = "funkej@janelia.hhmi.org" },
 ]
-name = "funlib.segment"
+name = "funrustlib"
 version = "0.5.1"
 description = "Tools for (re)labelling of arrays and graphs."
 readme = "README.rst"
@@ -23,17 +22,11 @@ classifiers = [
     'Programming Language :: Python :: 3.11',
 ]
 
-dependencies = ["numpy>=1.18.0"]
-
 [project.optional-dependencies]
 dev = [
-    "bumpversion",
     "wheel",
     "ruff",
     "black",
-    "Sphinx",
-    "twine",
     "pytest",
     "pytest-runner",
-    "matplotlib>=3.1.0",
 ]

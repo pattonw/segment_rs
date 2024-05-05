@@ -1,5 +1,5 @@
 [package]
-name = "segment_rs"
+name = "funrustlib"
 version = "0.1.0"
 edition = "2018"
 
@@ -18,5 +18,5 @@ criterion = "0.5"
 rand_isaac = "0.3.0"
 
 [lib]
-name = "segment_rs"
+name = "funrustlib"
 crate-type = ["cdylib", "rlib"]
